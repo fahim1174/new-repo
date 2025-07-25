@@ -131,7 +131,7 @@ li {
     }
 
     .contand {
-        overflow-x: hidden;
+        overflow-x:hidden;
     }
 
     .fah1 {
@@ -221,5 +221,8 @@ margin-left: 2px;
 }
 .news{
     width: 380px;
+}
+.lover{
+    font-size: 2rem;
 }
 }
