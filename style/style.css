@@ -1,0 +1,205 @@
+.noto-serif-01 {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.noto-serif-02 {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* Shard */
+.flex {
+    display: flex;
+}
+
+
+
+
+/* header */
+.head {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.large {
+    width: 100px;
+}
+
+.nav {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.ul,
+li {
+    list-style: none;
+    gap: 15px;
+}
+
+.para {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* main */
+.container {
+    margin-left: 10px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.text {
+    justify-items: center;
+}
+
+.but {
+    height: 40px;
+    width: 270px;
+    justify-items: center;
+}
+
+.shope {
+    margin-top: 200px;
+}
+
+.imf {
+    width: 250px;
+    height: 250px;
+    margin-top: -680px;
+    margin-left: -220px;
+}
+
+.group {
+    margin-left: 50px;
+    gap: 100px;
+}
+
+.flower {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.news {
+    margin: 120px auto 0px;
+    max-width: 1440px;
+    height: 450px;
+}
+
+.email {
+    background-color: white;
+    width: 800px;
+    height: 40px;
+    padding: 5px 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.Subscribe {
+    background-color: #E95A08;
+    width: 130px;
+    height: 40px;
+    padding: 6px 30px;
+}
+
+.con {
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+/* responsive */
+@media screen and (max-width:576px) {
+    .all .picture1 .nav .fah1 .FRESH {
+        width: 576px;
+    }
+
+    .fah1 {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    .text01 {
+        width: 410px;
+        font-size: 2.75rem;
+
+    }
+
+    .text02 {
+        width: 410px;
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .picture1 {
+        width: 410px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cards {
+        width: 410px;
+    }
+
+    .car {
+        width: 180px;
+    }
+
+    .imf {
+        display: none;
+    }
+
+    .group {
+        width: 410px;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .tex2 {
+        margin-left: 6px;
+    }
+
+    .flower {
+        width: 410px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fah21 {
+        width: 410px;
+        margin-top: 20px;
+    }
+
+    .taxt10 {
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+    .forh {
+        margin: 10px auto;
+        width: 330px;
+    }
+
+    .con {
+        width: 40px;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+
+    .kona {
+        font-size: 2rem;
+    }
+
+}
