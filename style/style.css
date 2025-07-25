@@ -122,8 +122,12 @@ li {
 /* responsive */
 @media screen and (max-width:576px) {
 
-    .all .picture1 .nav .fah1 .FRESH {
-        width: 576px;
+    .all .picture1 .fah1 .FRESH {
+        width: 410px;
+    }
+
+    .nav {
+        width: 382px;
     }
 
     .contand {
@@ -136,19 +140,20 @@ li {
     }
 
     .text01 {
-        width: 400px;
+        width: 382px;
         font-size: 2.75rem;
 
     }
 
     .text02 {
-        width: 400px;
+        width: 382px;
         font-size: 1rem;
         text-align: left;
+        margin-left: 2px;
     }
 
     .picture1 {
-        width: 400px;
+        width: 382px;
     }
 
     .cards {
@@ -156,7 +161,8 @@ li {
     }
 
     .cards {
-        width: 400px;
+        width: 380px;
+       
     }
 
     .car {
@@ -168,7 +174,7 @@ li {
     }
 
     .group {
-        width: 400px;
+        width: 382px;
         flex-direction: column;
         margin: 0 auto;
     }
@@ -178,12 +184,12 @@ li {
     }
 
     .flower {
-        width: 400px;
+        width: 382px;
         grid-template-columns: repeat(1, 1fr);
     }
 
     .fah21 {
-        width: 400px;
+        width: 382px;
         margin-top: 20px;
     }
 
@@ -206,5 +212,14 @@ li {
     .kona {
         font-size: 2rem;
     }
-
+    .para{
+        font-size: 1.20rem;
+        width: 382px;
+    }
+.container{
+margin-left: 2px;
+}
+.news{
+    width: 380px;
+}
 }
