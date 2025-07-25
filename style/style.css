@@ -121,8 +121,13 @@ li {
 
 /* responsive */
 @media screen and (max-width:576px) {
+
     .all .picture1 .nav .fah1 .FRESH {
         width: 576px;
+    }
+
+    .contand {
+        overflow-x: hidden;
     }
 
     .fah1 {
@@ -131,19 +136,19 @@ li {
     }
 
     .text01 {
-        width: 410px;
+        width: 400px;
         font-size: 2.75rem;
 
     }
 
     .text02 {
-        width: 410px;
+        width: 400px;
         font-size: 1rem;
         text-align: left;
     }
 
     .picture1 {
-        width: 410px;
+        width: 400px;
     }
 
     .cards {
@@ -151,7 +156,7 @@ li {
     }
 
     .cards {
-        width: 410px;
+        width: 400px;
     }
 
     .car {
@@ -163,7 +168,7 @@ li {
     }
 
     .group {
-        width: 410px;
+        width: 400px;
         flex-direction: column;
         margin: 0 auto;
     }
@@ -173,12 +178,12 @@ li {
     }
 
     .flower {
-        width: 410px;
+        width: 400px;
         grid-template-columns: repeat(1, 1fr);
     }
 
     .fah21 {
-        width: 410px;
+        width: 400px;
         margin-top: 20px;
     }
 
